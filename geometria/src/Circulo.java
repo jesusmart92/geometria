@@ -11,6 +11,9 @@ public class Circulo_JMB extends FiguraGeometrica {
 	
 	public Circulo_JMB(double r, String tipoFigura) {
 		super(tipoFigura);
+		if (r <0) {
+			radio=r*-1;
+		}
 		radio = r;
 	}
 
