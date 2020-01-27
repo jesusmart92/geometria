@@ -4,12 +4,12 @@
  * @version 1.2
  *
  */
-public class Rectangulo_JMB extends FiguraGeometrica {
+public class Rectangulo_JMB extends FiguraGeometrica_JMB {
 	private double l1;
 	private double l2;
 	
 
-	 */
+	 
 	public Rectangulo_JMB(String tipoFigura, double lG, double lP) {
 		super(tipoFigura);
 		l1 = lG;

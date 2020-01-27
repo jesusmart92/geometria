@@ -4,7 +4,7 @@
  *
  */
 
-public class Circulo_JMB extends FiguraGeometrica {
+public class Circulo_JMB extends FiguraGeometrica_JMB {
 	private double radio;
 	//Constante pi
 	static final double PI = 3.1416;
