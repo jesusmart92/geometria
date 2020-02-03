@@ -9,7 +9,7 @@ public abstract class FiguraGeometrica_JMB {
 	}
 
 	public abstract double area();
-	
+
 	public abstract double perimetro();
 
 	public String getTipoFigura() {

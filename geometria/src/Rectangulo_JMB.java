@@ -1,8 +1,8 @@
 
-public class Rectangulo_JMB extends FiguraGeometrica {
+public class Rectangulo_JMB extends FiguraGeometrica_JMB {
 	private double l1;
 	private double l2;
-	
+
 	public Rectangulo_JMB(String tipoFigura, double lG, double lP) {
 		super(tipoFigura);
 		l1 = lG;
@@ -13,7 +13,7 @@ public class Rectangulo_JMB extends FiguraGeometrica {
 	public double area() {
 		return l1 * l2;
 	}
-	
+
 	@Override
 	public double perimetro() {
 		return (2 * l1) + (2 * l2);
